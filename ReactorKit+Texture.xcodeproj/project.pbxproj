@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9BA58F5C2232366D003697A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA58F5B2232366D003697A5 /* AppDelegate.swift */; };
-		9BA58F5E2232366D003697A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA58F5D2232366D003697A5 /* ViewController.swift */; };
+		9BA58F5E2232366D003697A5 /* SignUpNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA58F5D2232366D003697A5 /* SignUpNodeController.swift */; };
 		9BA58F6322323670003697A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA58F6222323670003697A5 /* Assets.xcassets */; };
 		9BA58F6622323670003697A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA58F6422323670003697A5 /* LaunchScreen.storyboard */; };
 		9BA58F7222323828003697A5 /* SignUpContainerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA58F7122323828003697A5 /* SignUpContainerNode.swift */; };
@@ -25,7 +25,7 @@
 		6B4CDB38E8264C9B021F199D /* Pods_ReactorKit_Texture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorKit_Texture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA58F582232366C003697A5 /* ReactorKit+Texture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactorKit+Texture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA58F5B2232366D003697A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BA58F5D2232366D003697A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BA58F5D2232366D003697A5 /* SignUpNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpNodeController.swift; sourceTree = "<group>"; };
 		9BA58F6222323670003697A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA58F6522323670003697A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA58F6722323670003697A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		9BA58F6D22323788003697A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9BA58F5D2232366D003697A5 /* ViewController.swift */,
+				9BA58F5D2232366D003697A5 /* SignUpNodeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,7 +276,7 @@
 			files = (
 				9BA58F7B22324FFA003697A5 /* UIColor+Extension.swift in Sources */,
 				9BA58F74223238AA003697A5 /* SignUpFieldNode.swift in Sources */,
-				9BA58F5E2232366D003697A5 /* ViewController.swift in Sources */,
+				9BA58F5E2232366D003697A5 /* SignUpNodeController.swift in Sources */,
 				9BA58F7722323FD7003697A5 /* UIImage+Extension.swift in Sources */,
 				9BA58F7222323828003697A5 /* SignUpContainerNode.swift in Sources */,
 				9BFD9D8C2232565A00B69FDD /* SignUpFieldReactor.swift in Sources */,
